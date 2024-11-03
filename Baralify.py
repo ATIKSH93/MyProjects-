@@ -83,9 +83,9 @@ class SpotifyPlaylistCreator:
 
 
 # Initialize and run the SpotifyPlaylistCreator
-client_id = '60b91fc7adc64cf9bce1597994f50b33'
-client_secret = '4c80c62a3c15452298e2dd97d05028b0'
-redirect_uri = 'http://127.0.0.1:8080/'
+client_id = ''
+client_secret = ''
+redirect_uri = ''
 scope = 'playlist-modify-public playlist-modify-private user-library-read'
 app = SpotifyPlaylistCreator(client_id, client_secret, redirect_uri, scope)
 app.run()
